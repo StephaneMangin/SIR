@@ -9,7 +9,15 @@ public class App {
 	/**
 	 * Constructor
 	 */
-	protected App() {		
+	protected App() {
+	}
+	
+	public String getBananas(int number) {
+		return number + " banana(s)";
+	}
+
+	public String getBanana(int number) {
+		return number + " banana(s)";
 	}
 	
     /**
